@@ -13,8 +13,13 @@ function submitRanger(){
     $("#btn-found").text("Thanks!")
 }
 
-function submitError(){
+function submitError1(){
+    console.log("Wow, there was just a massive error from an allocation!")
+    allocation;
+}
+
+function submitError2(){
     let t = 5/0;
-    console.log("Wow, there was just a massive error!")
-    fajshdfjkasdjkl;
+    console.log("Wow, there was just a massive error from a batch creation!")
+    batch;
 }
