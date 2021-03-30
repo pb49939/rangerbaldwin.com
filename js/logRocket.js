@@ -12,3 +12,9 @@ $( document ).ready(function() {
 function submitRanger(){
     $("#btn-found").text("Thanks!")
 }
+
+function submitError(){
+    let t = 5/0;
+    console.log("Wow, there was just a massive error!")
+    fajshdfjkasdjkl;
+}
