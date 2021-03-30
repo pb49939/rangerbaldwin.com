@@ -65,6 +65,18 @@
  *
  * ------------------------------------------------------------------- */
 
+
+.poc-input{
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+}
+
+.border-small{
+  margin-top: 200px;
+}
+
+
 html {
   font-size: 10px;
 }
@@ -867,11 +879,12 @@ input[type="button"]:focus {
 
 .btn.btn--primary,
 button.btn--primary,
+button,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #0d0a0b;
-  border-color: #0d0a0b;
+  background: #862121;
+  border-color: #862121;
   color: #ffffff;
 }
 

@@ -4,10 +4,7 @@
  * ------------------------------------------------------------------- */
 
 (function($) {
-    window.LogRocket.identify('123456', {
-        name: 'Patrick Baldwin',
-        email: 'pbaldwi3@gmail.com',
-      });
+    
     "use strict";
 
     var cfg = {

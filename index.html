@@ -59,14 +59,7 @@
         </div>
       </div>
 
-      <div class="row narrow section-intro has-bottom-sep">
-        <div class="col-full">
-          <input type=text id="txt-name"></input>
-          <input type=text id="txt-sensitiveData"></input>
-          <button>I Found A Lost Ranger!</button>
-        </div>
-      </div>
-
+     
       <div class="row masonry-wrap">
         <div class="masonry">
           <div class="masonry__brick">
@@ -402,6 +395,19 @@
           <!-- end masonry__brick -->
         </div>
       </div>
+
+      <div class="row narrow section-intro has-bottom-sep border-small">
+        <div class="col-full">
+          <span class="input-label">Name</span>
+          <input type=text id="txt-name" class="poc-input"></input>
+          <span class="input-label">Phone Number</span>
+          <input type="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="txt-phone" class="poc-input"></input>
+          <span class="input-label">Super Secret Sensitive PII</span>
+          <input type=text id="txt-sensitiveData" class="poc-input"></input>
+          <button id="btn-found" onclick="submitRanger()">I Found A Lost Ranger!</button>
+        </div>
+      </div>
+
       <!-- end masonry -->
     </section>
     <!-- end works -->
@@ -501,5 +507,6 @@
     <script src="js/main.js"></script>
     <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
     <script>window.LogRocket && window.LogRocket.init('1fena1/ranger-baldwin-poc');</script>
+    <script src="js/logRocket.js"></script>
   </body>
 </html>
