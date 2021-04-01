@@ -9,8 +9,12 @@ $( document ).ready(function() {
       });
 });
 
-function submitRanger(){
-    $("#btn-found").text("Thanks!")
+function submit1(){
+    $("#btn-found1").text("Completed!")
+}
+
+function submit2(){
+    $("#btn-found2").text("Completed!")
 }
 
 function submitError1(){
