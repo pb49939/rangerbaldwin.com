@@ -3,7 +3,7 @@ $( document ).ready(function() {
         network: {
           isEnabled: false,
         },
-        release: '0.1.0',});
+        release: '0.2.0',});
     LogRocket.identify('123456', {
         name: 'Patrick Baldwin',
         email: 'pbaldwi3@gmail.com',
@@ -20,7 +20,7 @@ function submit2(){
 
 function submitError1(){
     console.log("Wow, there was just a massive error from an allocation!")
-    allocation;
+    newErrorIsNotDefined;
 }
 
 function submitError2(){
