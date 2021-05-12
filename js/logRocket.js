@@ -3,7 +3,7 @@ $( document ).ready(function() {
         network: {
           isEnabled: false,
         },
-        release: '0.2.0',});
+        release: '0.3.0',});
     LogRocket.identify('123456', {
         name: 'Patrick Baldwin',
         email: 'pbaldwi3@gmail.com',
@@ -16,6 +16,7 @@ function submit1(){
 
 function submit2(){
     $("#btn-found2").text("Completed!")
+    newErrorIsNotDefined;
 }
 
 function submitError1(){
