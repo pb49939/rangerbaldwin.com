@@ -1,7 +1,7 @@
 $( document ).ready(function() {
     LogRocket.init('1fena1/ranger-baldwin-poc', {
         network: {
-          isEnabled: false,
+          isEnabled: true,
         },
         release: '0.3.0',});
     LogRocket.identify('123456', {
